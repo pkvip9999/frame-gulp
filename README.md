@@ -84,7 +84,33 @@ gulp.task('default', function (callback) {
 })
 
 ````
+## file index.html 
 
+````
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--build:css css/style.min.css -->
+        <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+</head>
+<body>
+
+
+
+
+<!--build:js js/main.min.js -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- endbuild -->
+</body>
+</html>
+
+````
 ## Cai cac package
 
 * `npm init -y`
